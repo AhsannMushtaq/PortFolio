@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Ahsan Mushtaq</title>
+    <link rel="Stylesheet" href="portfolioCSS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Montserrat:wght@300&family=Noto+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/52b5a5f3bb.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+</head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/am-logo.png" class="logo" style="height: 100px;">
+                    <ul>
+                        <li><a href="#header"> Home</a></li>
+                        <li><a href="#about"> About</a></li>
+                        <li><a href="#Services"> Services</a></li>
+                        <li><a href="#portfolio"> Portfolio</a></li>
+                        <li><a href="#contact"> contact </a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <div id="name">
+                    <h1 class="Name">Hi, I'm Ahsan Mushtaq</h1>
+                </div>
+                    <p id="para">Full Stack Web Developer</p>
+                    
+                </div>
+                
+                   <a href="images/AhsanCvv.pdf" download class="btn btn2">Download CV</a>
+                
+            </div>
+            
+        </div>
+        <!-- //About// -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/IMG_20200819_105345__01-modified.png">
+                    </div>
+                    <div class="about-col-2">
+                    <h1 class="subtitile">About Me</h1>
+                    <p>I am a fresher with strong creative and analytical skills. Team player
+                        with an eye for detail.Proficient time management skills</p>
+                 <div class="tabtitles">
+                    <p class="tablinks active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tablinks" onclick="opentab('Experience')">Experience</p>
+                    <p class="tablinks" onclick="opentab('Education')">Education</p>
+                 </div>
+                  <div class="tab-contents active-tab" id="Skills">
+                      <ul>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Software Developer</span><br>App Development</li>
+                        <li><span>Investigation Specialist</span><br>Security And Investigation</li>
+                      </ul>
+                  </div>
+                  <div class="tab-contents" id="Experience">
+                      <ul>   
+                        <li><span>Transaction Risk Investigator</span><br>Amazon <i class="fa-brands fa-amazon"></i></li> 
+                      </ul>
+                  </div>
+                  <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>Bachelors In Computer Applications</span><br>Islamia college of Science And Commerce <br>2019-2022</li>
+                        <li><span>Higher Secondary </span><br>Sri Pratap higher Secondary School<br>2017-2018</li>
+                        <li><span>High School</span><br>Sultan-ul-Aarifeen wakf Public School</li>   
+                    </ul>
+                  </div>
+            </div>
+        </div>
+  <!-- Services -->
+
+        <div id="Services">
+          <div class="container"></div>
+          <h1 class="subtitile">My Services</h1>
+          <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Developer</h2>
+                <p>Development of various types of web pages</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Software Developer</h2>
+                <p>Development of various types of Sofwares whether Android or IOS</p>
+            </div>
+
+          </div>
+<!-- portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitile">My Work</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="images/web-developer-interview-questions-and-answers.jpg">
+                <div class="layer">
+                    <h3>Web Application</h3>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Key software developer skills in demand.webp">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Screenshot_20230107_081427.png">
+                <div class="layer">
+                    <h3>Data Structure Visualization</h3>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+        </div>
+    </div>
+    <div>
+    <a href="#" class="btn">See more</a>
+    </div>
+     
+  </div>
+</div>
+<!-- Contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i></i>Shahahsan17@gmail.com</p>
+                <p><i class="fa-light fa-phone"></i>+91-7006152301</p>
+                   <div class="socialicons">
+                     <a href=""><i class="fa-brands fa-facebook"></i></a>
+                     <a href="https://www.linkedin.com/in/ahsan-mushtaq-a82949170/"><i class="fa-brands fa-twitter-square"></i></a>
+                     <a href="https://www.instagram.com/_ahsanmushtaq_/"><i class="fa-brands fa-instagram"></i></a>
+                     <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                   </div>
+                  
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="your name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+     </div>
+     <div class="copyright">
+        <p><i class="fa-regular fa-copyright"></i> copyright Ahsan. </p>
+     </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tablinks")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+        for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+     }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxcYqsGDjYAtEozMc7htOpYQY4EKGdyg1AB3RLFqpf5y3m2MqZ2Hp9jFu-lwpjDic9R/exec'
+        const form = document.forms['submit-to-google-sheet']
+      const msg=document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+    </body>
+    </html>
